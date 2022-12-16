@@ -1,0 +1,17 @@
+#portfolio {
+  .portfolio {
+    .multi-pages--data {
+      margin-left: 300px;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #portfolio {
+    .portfolio {
+      .multi-pages--data {
+        margin-left: 0px;
+      }
+    }
+  }
+}

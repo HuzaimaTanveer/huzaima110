@@ -1,0 +1,103 @@
+#resume {
+  .resume {
+    width: 100%;
+    height: auto;
+    background-color: #f5f8fd;
+
+    .title {
+      border-bottom: 3px solid #149ddd;
+      width: 50px;
+      h2 {
+        color: #173b6c;
+        padding: 0px;
+        font-size: 30px;
+      }
+    }
+    .description {
+      p {
+        font-size: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+    .education {
+      padding: 20px 0px;
+      .heading {
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      .resume-item {
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        border: 1px solid #173b6c;
+        border-radius: 100%;
+        position: absolute;
+        margin-left: -7px !important;
+      }
+      .education-information {
+        border-left: 3px solid #149ddd;
+
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        .institute {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        p {
+          p {
+            font-size: 18px;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+              sans-serif;
+          }
+        }
+      }
+    }
+
+    .experience {
+      padding: 20px 0px;
+
+      .heading {
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      .resume-item {
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        border: 1px solid #173b6c;
+        border-radius: 100%;
+        position: absolute;
+        margin-left: -7px !important;
+      }
+      .experience-information {
+        border-left: 3px solid #149ddd;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        .institute {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        p {
+          p {
+            font-size: 18px;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+              sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
